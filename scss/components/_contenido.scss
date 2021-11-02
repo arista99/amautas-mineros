@@ -1,0 +1,585 @@
+// Tarjetas
+.cards{
+    display: block;
+    float: left;
+    margin: 1.6em 150px; 
+}
+
+.card{
+    float: left;
+    width: 255px;
+    height: 160px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 2px #ddd;
+    border-radius: 5px;
+    background: white;
+    overflow: hidden;
+    margin: 10px 29.5px 30px 29.5px;
+    cursor: pointer;
+}
+
+.card:hover{
+    transform: scale(1.2, 1.2);
+    transition: all 300ms;
+}
+
+// Tarjetas consejo consultivo
+
+.card-consejo{
+    float: left;
+    width: 222px;
+    height: 315px;
+    margin-right: 27px;
+    margin-left: 30px;
+    margin-top: 30px;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+    .consejo{
+        width: 222px;
+        height: 315px;
+        border-radius: 5px;
+        background: white;
+        box-shadow: 1px 1px 2px rgb(165, 159, 159);
+    }img{
+        margin-top: 15px;
+        border-radius: 50%;
+    }p{
+        font-weight: 700;
+        margin-top: 10px;
+    }
+}
+
+.card-consejo:hover{
+    transform: scale(1.1, 1.1);
+    transition: all 500ms;
+}
+
+// Tarjetas consejo directorio
+
+.correo-peru{
+    overflow: hidden;
+    width: auto;
+    border-radius: 5px;
+    text-align: center;
+    img{
+        height: 250px;
+    }
+    p{
+        position: absolute;
+        font-size: 13px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%) scale(0);
+        color: #fff;
+        z-index: 2;
+        font-weight: 700;
+        transition: all 300ms;
+        background: transparent;
+        padding: 6px;
+    }
+}
+
+.correo-peru:hover img{
+    transform: scale(1.1,1.1);
+    transition: all 300ms;
+}
+
+.correo-peru:hover p{
+    font-size: 50px;
+    transform: translate(-50%,-50%) scale(1);
+    transition: all 300ms;
+}
+
+.hefecto{
+    float: left;
+    border-radius: 5px;
+    width: 250px;
+    height: 150px;
+    box-shadow: 1px 1px 2px #ddd;
+    margin-top: 35px;
+    margin-right: 44px;
+    margin-left: 45px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    opacity: 1;
+    z-index: 0;
+    h3{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        color: #fff;
+        letter-spacing: 1px;
+        transform: translate(-50%,-50%);
+    }
+    p{
+        position: absolute;
+        font-size: 11px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%) scale(0);
+        color: #fff;
+        z-index: 2;
+        font-weight: 900;
+        transition: all 300ms;
+        background: transparent;
+        padding: 6px;
+    }
+    img{
+        width: 255px;
+        height: 155px;
+        transition: all 300ms;
+    }
+}
+.hefecto:hover{
+    transform: scale(1.2, 1.2);
+    transition: all 300ms;
+}
+
+.hefecto:hover h3{
+    transform: scale(0);
+    transition: all 300ms;
+}
+
+.hefecto:hover p{
+    transform: translate(-50%,-50%) scale(1);
+}
+
+
+// banner-viernes-amautino
+
+#viernes_amautinas{
+    margin-top: 35px;
+    margin-left: 25px;
+}
+
+// ASIDE
+
+.opciones{
+    font-size: 15px;
+    line-height: 30px;
+    ul li{
+        list-style: none;
+        
+    }
+    ul li a{
+        color: black;
+        text-decoration: none;
+    }
+}
+
+.opciones ul li a:hover{
+    padding-left: 5px;
+    color:  rgb(27,113,45);
+    width: 100%;
+    transition: all 200ms;
+}
+
+// CONOCENOS
+
+.secciones{
+    float: right;
+    width: 70%;
+    margin-top: 20px;
+    }.informacion .inf{
+    float: left;
+    width: 443px;
+    height: 450px; 
+    margin: 6px;
+    padding: 2px;
+    // background: #efc517;
+    border-radius: 8px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    }.informacion h2{
+        text-align: left !important;
+    }.informacion .mapa{
+        float: right;
+        width: 380px;
+        height: 450px;
+        img{
+            height: 500px;
+            width: 435px;
+            overflow: hidden;
+        }
+}
+
+// Porque surge amautas mineros
+
+.informacion > div{
+    float: left;
+    width: 375px;
+    height: 160px;
+    margin: 16px;
+    padding: 2px;
+    line-height: 40px;
+    }.icon{
+        width: 17px !important;
+    }.informacion i{
+        // position: absolute;
+        font-size: 85px !important;
+    }.Color{
+        color:rgb(78, 158, 37);
+    }.Libre1{
+        top: 29%;
+        left: 62%;
+    }.Libre2{
+        top: 61%;
+        left: 62%;
+    }
+
+
+// Directorio General
+
+.formulario{
+    float: left;
+    width: 585px;
+    height: auto;
+    margin: 50px 0px 0px 0px;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"]{
+    float: left;
+    display: block;
+    margin: 5px;
+    margin-top: 20px;
+    width: 250px;
+    height: 30px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #ccc inset;
+    border-radius: 5px;
+    padding-left: 30px;
+    color: gray;
+}
+
+.formulario input[type="submit"]{
+    display: block;
+    border-radius: 2px;
+    margin: 5px;
+    margin-top: 20px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    background: #2979cd;
+    border: 1px solid #11608e;
+    cursor: pointer;
+}
+
+.formulario textarea{
+    width:573px;
+    height:100px;
+    margin: 5px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid #cecece;
+}
+
+// Noticias - Eventos
+
+.noticias{
+    float: left;
+    width: 500px;
+    height: 315px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin: 0px 9px 18px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px grey;
+    p{ 
+        padding-left: 10px;
+        padding-right: 15px;
+        letter-spacing: 1px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 7;
+        line-clamp: 7;
+        overflow: hidden;
+    }
+    h3{
+        text-align: center;
+        color: white;
+        letter-spacing: 0px;
+    }
+}
+
+.centrado{
+    line-height: 60px;
+}
+
+
+.imagen-noticias{
+    float: right;
+}
+
+.noticias-eventos{
+    float: left;
+    width: 500px;
+    height: 625px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin: 0px 9px 0px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px grey;
+    p{ 
+        padding-left: 10px;
+        padding-right: 15px;
+        letter-spacing: 1px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 7;
+        line-clamp: 7;
+        overflow: hidden;
+    }
+    figure img{
+        width: 500px;
+        height: 300px;
+        cursor: pointer;
+    }
+    h3{
+        text-align: center;
+        color: white;
+        letter-spacing: 0px;
+        line-height: 60px;
+    }
+}
+
+.noticias-eventos-sec{
+    float: left;
+    width: auto;
+    height: auto;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin: 0px 9px 35px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px grey;
+    h3{
+        text-align: center;
+        color: white;
+        letter-spacing: 0px;
+        line-height: 60px;
+    }
+    figure{
+            text-align: center;
+            width: auto;
+            height: 300px;
+            cursor: pointer;
+        }
+}
+
+.boton{
+    float: right;
+    font-size: 10px;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #fec600;
+    border-radius: 5px;
+    font-weight: 800;
+    margin: auto 5px;
+    padding: 4px;
+    border: 1px solid #f0f0f0;
+    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2),
+                0 2px 2px 0 rgba(0, 0, 0, 0.14),
+                0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    color: #fff;
+    transition: background-color 15ms linear,
+    box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+}
+
+.boton:link,
+.boton:visited {
+    border-top: 1px solid #cccccc;
+    border-bottom: 0px solid #666666;
+    border-left: 1px solid #cccccc;
+    border-right: 0px solid #666666;
+}
+
+.boton:hover {
+border-bottom: 1px solid #cccccc;
+border-top: 2px solid #666666;
+border-right: 1px solid #cccccc;
+border-left: 2px solid #666666;
+}
+
+
+.banner-noticia{
+    margin-top: 20px;
+    width: 1040px;
+    height: 500px;
+    border-radius: 35%;
+    overflow: hidden;
+    img{
+        width: 1040px;
+        height: 500px;
+    }
+}
+
+//que hacemos
+
+.primer-espacio{
+    width: auto;
+    height: 550px;
+    margin: 35px auto;
+    .primero{
+    float: left;
+    width: 443px;
+    margin: 6px;
+    padding: 2px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    }.segunda{
+        float: right;
+        margin-top: 75px;
+    }
+}
+
+.segundo-espacio{
+    width: auto;
+    height: 625px;
+    margin: 35px auto;
+    .imagen{
+        text-align: center;
+        margin: 0px auto;
+    }.escalados > ul > li{
+        float: left;
+        margin: 5px auto;
+        margin-left:20px ;
+        padding: 2px;
+        line-height: 30px;
+        letter-spacing: 1px;
+        background: #fec600;
+        border-radius: 15px;
+        list-style: none;
+    }.escalados i{
+        margin: 10px auto;
+        margin-right: 3px;
+        margin-left: 3px;
+}
+}
+
+.tercer-espacio{
+    width: auto;
+    height: 495px;
+    margin: 35px auto;
+    .primero{
+        float: right;
+            width: 450px;
+            height: auto;
+            margin: 6px;
+            margin-top: 75px;
+            line-height: 30px;
+            letter-spacing: 1px;
+        }.segunda{
+            float: left;
+            width: 500px;
+            height: auto;
+            margin-right: 15px;
+        }
+    
+}
+
+.tercer-espacio .escalados > ul > li{
+        float: left;
+        margin: 5px auto;
+        margin-left: 5px;
+        // margin-left:20px ;
+        padding: 2px;
+        line-height: 30px;
+        letter-spacing: 1px;
+        background: #fec600;
+        border-radius: 15px;
+        list-style: none;
+    }.escalados i{
+        margin: 5px auto;
+        margin-right: 3px;
+        margin-left: 3px;
+}
+
+
+.cuarto-espacio{
+    width: auto;
+    height: 800px;
+    margin: 35px auto;
+    .primero{
+        float: left;
+            width: 480px;
+            height: auto;
+            margin: 6px;
+            margin-top: 75px;
+            line-height: 30px;
+            letter-spacing: 1px;
+        }.segunda{
+            float: right;
+            width: 450px;
+            height: auto;
+        }
+}
+
+.cuarto-espacio .escalados > ul > li{
+    float: left;
+    margin: 5px auto;
+    padding: 2px;
+    // line-height: 30px;
+    letter-spacing: 1px;
+    background: #fec600;
+    border-radius: 15px;
+    list-style: none;
+}.escalados i{
+    margin: 10px auto;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
+// Formulario Escolar
+.imagen-escolar{
+    float: right;
+    width: 450px;
+    margin: 190px 0px 0px 0px;
+}
+
+.imagen-profesor{
+    float: right;
+    width: 450px;
+    margin: 190px 0px 0px 0px;
+}
+
+.imagen-otros{
+    float: right;
+    width: 450px;
+    margin: 190px 0px 0px 0px;
+}
+
+//banner
+
+.banner{
+    width: 100%;
+    height: 315px;
+    margin: 1.6em 50px;
+    overflow: hidden;
+}
+
+// Boton Top
+
+.ir-arriba{
+    display: none;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    
+    padding: 20px;
+    border-radius: 25%;
+    background: #024959;
+    font-size: 20px !important;
+    color: #fff;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 5px;
+}

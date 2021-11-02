@@ -1,0 +1,243 @@
+/*ESTILOS GENERALES*/
+
+$color-titulo: rgb(27,113,45);
+$color-background: rgb(137, 221, 88);
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Futura Heavy font, Arial,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+//Cuerpo
+body{
+    background-color: #f0f0f0; //#f9f8f4
+    box-shadow: 1px 1px 10px #63786d inset;
+}
+
+// Limpiar Vacios
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+
+// Titulos Generales
+.tittle{
+    width: 100%;
+    height: 60px;
+    margin-top: 30px;
+    background: transparent;
+    border-radius: 5px;
+    background-image: linear-gradient(148.25deg,#649d2a 3%,#29752b 89.85%);
+}
+
+.tittle-eventos{
+    width: 100%;
+    height: 60px;
+    background: transparent;
+    background-image: linear-gradient(148.25deg,#649d2a 3%,#29752b 89.85%);
+}
+
+.tittle-noticias{
+    width: 100%;
+    height: 60px;
+    background: transparent;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-image: linear-gradient(148.25deg,#649d2a 3%,#29752b 89.85%);
+}
+
+.tittle-contacto{
+    width: 100%;
+    height: 60px;
+    background: transparent;
+    color: white !important;
+    background-image: linear-gradient(148.25deg,#649d2a 3%,#29752b 89.85%);
+}
+
+// Separacion dentro de un Div 2 grupos
+.separacion_uno{
+    display: block;
+    float: left;
+}
+.separacion_dos{
+    display: block;
+    float: right;
+}
+
+//Tipos de Ancho Wrap = General / .contenido = Espacio de Cards / .Content = Diferentes espacios del menu
+
+.wrap{
+    width: 1250px;
+    margin: 0px auto;
+}
+
+.contenido{
+    width: 1040px;
+    margin: 0 auto;
+    margin-top: 30px;
+    min-height: 800px;
+}
+
+// Ancho de Article
+
+.contenido_article{
+    text-align: center;
+    width: 750px;
+    letter-spacing: 1px;
+    p{
+        font-size: 18px;
+    }
+}
+
+// Barra Lateral - General
+aside{
+    width: 24%;
+    float: left;
+    margin: 30px;
+    min-height: 800px;
+    max-height: auto;
+    border-right: 2px solid #efc517;
+    // box-shadow: 0px 2px 2px #ccc;
+    font-family: sans-serif, Arial, Helvetica;
+}
+
+// h2 - General
+h2{
+    font-size: 30px;
+    color: $color-titulo;
+    font-family: aharoni bold;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-shadow: 1px 1px 1px rgb(25, 43, 16);
+}
+
+// SCROLL
+
+#body::-webkit-scrollbar{
+    width: 5px;
+    background: #f9f8f4;
+}
+
+#body::-webkit-scrollbar-thumb{
+    background: rgb(224, 202, 75);
+    border-radius: 5px;
+}
+
+//nuestros-valores
+
+.illustration{
+    display: block;
+    width: auto;
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+#grupo1{
+    transform: translateY(0%);
+    animation: valores 5s ease-in-out;
+}
+
+@keyframes valores {
+    from{
+        transform: translateY(100%);
+    }to{
+        transform: translateY(0%);
+    }
+}
+
+
+// Redes Sociales
+
+.social ul li{
+    display: inline-block;
+    margin: 0px 14px 0px 14px;
+    letter-spacing: 1px;
+}
+
+.redSocial{
+	width:30px;
+	height:30px;
+	text-align: center;
+	line-height:30px !important;
+}
+
+/*FACEBOOK*/
+
+.facebookBlanco{
+	color:white;
+}
+
+.facebookNegro{
+	color:black;
+}
+
+.facebookColor{
+	color:white;
+	background:#46639f;
+}
+
+/*YOUTUBE*/
+
+.youtubeColor{
+	color:white;
+	background:#d6513e;
+}
+
+.youtubeBlanco{
+	color:white;
+}
+
+.youtubeNegro{
+	color:black;
+}
+
+/*TWITTER*/
+
+.twitterColor{
+	color:white;
+	background:#0ab2e6;
+}
+
+.twitterBlanco{
+	color:white;
+}
+
+.twitterNegro{
+	color:black;
+}
+
+/*GOOGLE PLUS*/
+
+.linkedColor{
+	color:white;
+	background:#0a66c2;
+}
+
+.linkedBlanco{
+	color:white;
+}
+
+.googleNegro{
+	color:black;
+}
+
+/*INSTAGRAM*/
+
+.instagramColor{
+	color:white;
+	background:linear-gradient(45deg, #fca925, #ee1d5f,  #6350a2);
+
+}
+
+.instagramBlanco{
+	color:white;
+}
+
+.instagramNegro{
+	color:black;
+}

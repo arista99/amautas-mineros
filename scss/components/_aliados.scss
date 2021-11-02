@@ -1,0 +1,37 @@
+//Slider- Aliados
+
+.slider-aliados {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 30px;
+    background: white;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    box-shadow: 0px 0px 3px gray;
+    .slier-prin{
+        display: inline-flex;
+        -moz-animation: movimiento 15s infinite linear;
+        -webkit-animation: movimiento 15s infinite linear;
+        animation: movimiento 15s infinite linear;
+        height: 100%;
+        width: auto;
+        .juegos_DWG {
+            // background: #CCC;
+            border: 1px solid #FFF;
+            color: #FFF;
+            font-size: 16px;
+            line-height: 100px;
+            flex: 0 0 auto;
+            text-align: center;
+            width: 250px;
+        }
+    }
+}
+
+@keyframes movimiento {
+    to {
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    }
+}

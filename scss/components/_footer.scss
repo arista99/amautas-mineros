@@ -1,0 +1,68 @@
+@use 'general' as g;
+//FOOTER
+
+#footer{
+    width: 100%;
+    height: 200px;
+    margin-top: 40px;
+    background: transparent;
+    background-image: linear-gradient(148.25deg,#29752b 3%,#649d2a 89.85%);
+    border-top: 3px solid;
+    border-image:   linear-gradient(to right, #b79a33 25%, #ecc717 25%, #ecc717 50%,#8cbf40 50%, #8cbf40 75%, #436e36 75%) 3;
+    color: white;
+    overflow: hidden;
+    .wrap > div{  // Tamaño de los 3 div del footer
+        float: left;
+        width: auto;
+        height: auto;
+        margin: 6px;
+        padding: 2px;
+    }
+}
+
+.bloque_footer{
+    padding-top: 100px;
+}
+
+// DIV DE FOOTER REDES, PRIVACIDAD y AUTOR
+
+.social{
+    display: block;
+    h4{
+        font-size: 30px;
+    }ul li{
+        margin: 0px 5px;
+    }ul li a i{
+        font-size: 18px;
+        border-radius: 15px;
+    }ul li a i:hover{
+        border-radius: 5px;
+        transform: scale(1.2, 1.2);
+        transition: all 300ms;
+    }
+}
+
+.derechos{
+    float: right !important;
+    .autor{
+        float: right;
+        text-align: center;
+        width: 180px;
+        height: 35px;
+        margin-top: 10px;
+        border-radius: 5px;
+        background: rgb(128, 0, 107);
+        span{
+            line-height: 35px;
+            a{
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.autor:hover{
+    transform: scale(1.1, 1.1);
+    transition: all 500ms;
+}
